@@ -33,7 +33,7 @@ require (
 	github.com/google/go-github/v32 v32.1.0
 	github.com/google/slowjam v0.0.0-20200530021616-df27e642fe7b
 	github.com/google/uuid v1.2.0
-	github.com/hashicorp/go-getter v1.5.2
+	github.com/hashicorp/go-getter v1.6.2
 	github.com/hashicorp/go-retryablehttp v0.6.8
 	github.com/hectane/go-acl v0.0.0-20190604041725-da78bae5fc95 // indirect
 	github.com/hooklift/assert v0.0.0-20170704181755-9d1defd6d214 // indirect
@@ -83,7 +83,7 @@ require (
 	golang.org/x/mod v0.4.2
 	golang.org/x/oauth2 v0.0.0-20210313182246-cd4f82c27b84
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210320140829-1e4c9ba3b0c4
+	golang.org/x/sys v0.0.0-20220517195934-5e4e11fc645e
 	golang.org/x/text v0.3.5
 	google.golang.org/api v0.43.0
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 // indirect
