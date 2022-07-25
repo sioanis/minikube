@@ -3,7 +3,10 @@ module k8s.io/minikube
 go 1.16
 
 require (
-	cloud.google.com/go/storage v1.13.0
+	cloud.google.com/go/container v1.3.0 // indirect
+	cloud.google.com/go/monitoring v1.5.0 // indirect
+	cloud.google.com/go/storage v1.24.0
+	cloud.google.com/go/trace v1.2.0 // indirect
 	contrib.go.opencensus.io/exporter/stackdriver v0.12.1
 	github.com/Azure/azure-sdk-for-go v43.0.0+incompatible
 	github.com/Delta456/box-cli-maker/v2 v2.2.1
@@ -27,12 +30,12 @@ require (
 	github.com/elazarl/goproxy v0.0.0-20190421051319-9d40249d3c2f
 	github.com/elazarl/goproxy/ext v0.0.0-20190421051319-9d40249d3c2f // indirect
 	github.com/golang-collections/collections v0.0.0-20130729185459-604e922904d3
-	github.com/google/go-cmp v0.5.5
+	github.com/google/go-cmp v0.5.8
 	github.com/google/go-containerregistry v0.4.1
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/google/go-github/v32 v32.1.0
 	github.com/google/slowjam v0.0.0-20200530021616-df27e642fe7b
-	github.com/google/uuid v1.2.0
+	github.com/google/uuid v1.3.0
 	github.com/hashicorp/go-getter v1.5.2
 	github.com/hashicorp/go-retryablehttp v0.6.8
 	github.com/hectane/go-acl v0.0.0-20190604041725-da78bae5fc95 // indirect
@@ -81,11 +84,11 @@ require (
 	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0
 	golang.org/x/exp v0.0.0-20200224162631-6cc2880d07d6
 	golang.org/x/mod v0.4.2
-	golang.org/x/oauth2 v0.0.0-20210313182246-cd4f82c27b84
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210320140829-1e4c9ba3b0c4
-	golang.org/x/text v0.3.5
-	google.golang.org/api v0.43.0
+	golang.org/x/oauth2 v0.0.0-20220622183110-fd043fe589d2
+	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f
+	golang.org/x/sys v0.0.0-20220624220833-87e55d714810
+	golang.org/x/text v0.3.7
+	google.golang.org/api v0.86.0
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 // indirect
 	gopkg.in/yaml.v2 v2.4.0
 	gotest.tools/v3 v3.0.3 // indirect
